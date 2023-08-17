@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "asp-core-docker-k8s", "asp-core-docker-k8s.csproj", "{03693E5F-3C56-43FE-A46C-C5F318A81966}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{03693E5F-3C56-43FE-A46C-C5F318A81966}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03693E5F-3C56-43FE-A46C-C5F318A81966}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03693E5F-3C56-43FE-A46C-C5F318A81966}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03693E5F-3C56-43FE-A46C-C5F318A81966}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4AE9C47C-0585-40A1-9606-E07A9A39691E}
+	EndGlobalSection
+EndGlobal

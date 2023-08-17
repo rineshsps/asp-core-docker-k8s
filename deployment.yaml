@@ -1,0 +1,20 @@
+﻿apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: my-aspnet-app
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: my-aspnet-app
+  template:
+    metadata:
+      labels:
+        app: my-aspnet-app
+    spec:
+      containers:
+        - name: my-aspnet-app
+          image: my-dotnet-app:latest
+          imagePullPolicy: Always  # Set to always pull the latest image
+          ports:
+            - containerPort: 80
